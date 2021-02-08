@@ -11,7 +11,7 @@ class Box extends Component {
                 }}>
 
             </div>
-            <button>Remove Box!</button>
+            <button onClick={this.props.removeBox}>Remove Box!</button>
         </div>     
         )
     }
